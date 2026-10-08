@@ -39,22 +39,23 @@ button:focus-visible,a:focus-visible{outline:3px solid var(--gold);outline-offse
 #cover.lit .cv{opacity:1}
 #cover .cv.tl{top:0;left:0;width:min(34vw,140px);transform:scaleY(-1)}
 #cover .cv.br{right:0;bottom:0;width:min(50vw,210px);transform:scaleX(-1)}
-.cn{width:min(88vw,380px);margin:0 auto;font-family:'Aref Ruqaa',serif;font-weight:700;line-height:1.02;color:#fff;transition:color 1.2s;clip-path:inset(0 0 0 100%);animation:wr 3s 1.3s cubic-bezier(.4,.1,.35,1) forwards}
-html[lang=en] .cn{clip-path:inset(0 100% 0 0);animation-name:wrl;font-family:'Cormorant Garamond',serif;font-style:italic;font-weight:600}
-.cn b{display:block;font:inherit;font-size:clamp(54px,17.5vw,80px);text-align:start}
-.cn .n1{margin-inline-end:14%}
-.cn .n2{margin-inline-start:16%;margin-top:-.1em}
-.cn .am{display:block;text-align:start;padding-inline-start:12%;font-size:clamp(32px,9.5vw,44px);line-height:1;margin:-.1em 0 -.5em;clip-path:inset(0 0 0 100%);animation:wr .55s 5.15s forwards}
-html[lang=en] .cn .am{clip-path:inset(0 100% 0 0);animation-name:wrl}
-@keyframes wr{to{clip-path:inset(0)}}@keyframes wrl{to{clip-path:inset(0)}}
+.cn{width:min(88vw,380px);margin:14px auto 0;font-family:'Aref Ruqaa',serif;font-weight:700;line-height:1.02;color:#fff;transition:color 1.2s;clip-path:inset(0 0 0 100%);animation:wr 3s 1.3s cubic-bezier(.4,.1,.35,1) forwards}
+html[lang=en] .cn{clip-path:inset(-20% 100% -20% -20%);animation-name:wrl;font-family:'Cormorant Garamond',serif;font-style:italic;font-weight:600}
+.cn b{display:block;font:inherit;font-size:clamp(54px,17.5vw,80px);text-align:center}
+html[lang=en] .cn b{font-size:clamp(46px,15vw,70px);padding-inline:.15em}
+.cn .n1{margin:0}
+.cn .n2{margin:-.1em 0 0}
+.cn .am{display:block;text-align:center;padding:0;font-size:clamp(32px,9.5vw,44px);line-height:1;margin:-.1em 0 -.5em;clip-path:inset(0 0 0 100%);animation:wr .55s 5.15s forwards}
+html[lang=en] .cn .am{clip-path:inset(-20% 100% -20% -20%);animation-name:wrl}
+@keyframes wr{to{clip-path:inset(0)}}@keyframes wrl{to{clip-path:inset(-20%)}}
 #cover.lit .cn{color:#1F3558}
 #cover.lit .cn,#cover.lit .cn .am,#cover.lit .wave path{animation-duration:.01s!important;animation-delay:0s!important}
-.wave{width:min(78vw,300px);height:30px;margin:-2px auto 0;overflow:visible;position:relative}
+.wave{width:min(78vw,300px);height:30px;margin:10px auto 0;overflow:visible;position:relative}
 .wave path{fill:none;stroke-width:2.2;stroke-dasharray:1;stroke-dashoffset:1;transition:stroke 1.2s;animation:dr 1.1s 5.7s forwards}
 .wave .w1{stroke:#E6CF96}.wave .w2{stroke:#fff}
 #cover.lit .wave .w1{stroke:#8DA7D6}#cover.lit .wave .w2{stroke:#1F3558}
 @keyframes dr{to{stroke-dashoffset:0}}
-.orn2{width:min(60vw,220px);height:26px;margin:14px auto 4px}
+.orn2{width:min(60vw,220px);height:26px;margin:26px auto 18px}
 .dtl{font:400 20px/1.5 Amiri,serif;color:#3F5A8C;margin:0}
 html[lang=en] .dtl{font:italic 500 22px/1.4 'Cormorant Garamond',serif}
 #cover .rise{opacity:0;transform:translateY(14px);transition:opacity 1s,transform 1s}
@@ -163,7 +164,6 @@ footer .fv.l{left:0}footer .fv.r{right:0;transform:scaleX(-1)}
 <div class="cn en"><b class="n1">Abdelrahman</b><b class="am">&amp;</b><b class="n2">Eman</b></div>
 <svg class="wave" viewBox="0 0 300 30" preserveAspectRatio="none"><path class="w1" pathLength="1" d="M0 17C38 -1 62 31 100 15S160 3 200 15 262 28 300 10"/><path class="w2" pathLength="1" d="M0 21C40 5 66 33 104 20S164 9 202 20 264 29 300 16"/></svg>
 <svg class="orn2 rise" style="--d:.6s" viewBox="0 0 220 26" fill="none"><g stroke="#8DA7D6" stroke-width="1.2" stroke-linecap="round"><path d="M6 13H78"/><path d="M142 13H214"/></g><use href="#fbl" transform="translate(84 13) scale(.8) rotate(180)"/><use href="#fbl" transform="translate(136 13) scale(.8)"/><use href="#fbf" transform="translate(110 13) scale(.9)"/></svg>
-<p class="rise dtl ar" style="--d:.8s">الجمعة ١٨ ديسمبر ٢٠٢٦</p><p class="rise dtl en" style="--d:.8s">Friday, 18 December 2026</p>
 <p class="rise q ar" style="--d:1.1s">حين يلتقي القلبان على المودة، لا تكتمل الحكاية إلا بقلوبٍ صادقة تشهد على الفرح.. بانتظاركم لتنيروا سماء ليلتنا.</p><p class="rise q en" style="--d:1.1s">When two hearts meet in affection, the story is only complete with sincere hearts to witness the joy… we await you to light up the sky of our night.</p>
 <div class="rise" style="--d:1.4s"><b class="gt ar">أهلاً <span class="g">بأهلنا وأحبابنا</span>،</b><b class="gt en">Dear <span class="g">family &amp; friends</span>,</b>
 <div class="gs ar">عندنا خبر حلو عايزين نقولهولك</div><div class="gs en">we have something lovely to share with you</div></div>
